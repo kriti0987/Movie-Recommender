@@ -14,11 +14,11 @@ Example: Searching for Avatar (Sci-Fi) would occasionally suggest A Cinderella S
 1. Language: Python
 2. Libraries: Pandas, NumPy, Scikit-Learn, NLTK
 
-Techniques: 
-1. Text Preprocessing: NLTK Porter Stemming
-2. Feature Engineering: Metadata Weighting (Genre Boosting)
-3. Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency)
-4. Similarity Metric: Cosine Similarity
+  Techniques: 
+  1. Text Preprocessing: NLTK Porter Stemming
+  2. Feature Engineering: Metadata Weighting (Genre Boosting)
+  3. Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency)
+  4. Similarity Metric: Cosine Similarity
 
 # Dataset
 
@@ -26,21 +26,19 @@ This project utilizes the TMDB 5000 Movie Dataset sourced from Kaggle. The datas
 1. tmdb_5000_movies.csv: Contains metadata such as budget, genres, homepage, overview, popularity, and production companies.
 2. tmdb_5000_credits.csv: Contains cast and crew information for each movie.
 
-#Procedure (The Development Pipeline)
+# Procedure (The Development Pipeline)
 
 The project in four iterative phases:
 1. Data Cleaning: Merged the two datasets and handled missing values, duplicate entries, and JSON-formatted strings in the genres/keywords columns.
 2. Feature Engineering (Genre Boosting): Boosted the importance of genre and keyword metadata by concatenating them multiple times to ensure the model prioritizes category over narrative description.
-   
-Weighted Metadata Concatenation
-tags = (genres * 3) + (keywords * 2) + overview + cast + crew
+   Weighted Metadata Concatenation
+   tags = (genres * 3) + (keywords * 2) + overview + cast + crew
 
-3. Text Normalization: Applied PorterStemmer to reduce words to their root forms (e.g., "action" and "actions" $\rightarrow$ "act"), reducing noise.
-4. Vectorization & Similarity: Migrated from CountVectorizer to TfidfVectorizer to highlight unique keywords and penalize common terms. Used cosine_similarity to calculate the spatial proximity between vectors.
+4. Text Normalization: Applied PorterStemmer to reduce words to their root forms (e.g., "action" and "actions" $\rightarrow$ "act"), reducing noise.
+5. Vectorization & Similarity: Migrated from CountVectorizer to TfidfVectorizer to highlight unique keywords and penalize common terms. Used cosine_similarity to calculate the spatial proximity between vectors.
 
 # Outcome
 
-Outcomes
 1. Successfully transformed a baseline recommendation model into a high-precision engine by implementing a weighted NLP pipeline, effectively eliminating 90% of cross-genre noise and achieving 100% thematic consistency in movie suggestions
 2. Eliminated cross-genre noise (e.g., Sci-Fi inputs now result in Sci-Fi outputs).
 3. Demonstrated proficiency in NLP, feature engineering, and model optimization.
