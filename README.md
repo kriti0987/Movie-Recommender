@@ -15,7 +15,7 @@ To eliminate thematic drift and ensure that recommendations remain within the co
 1. Language: Python
 2. Libraries: Pandas, NumPy, Scikit-Learn, NLTK
 
-  Techniques: 
+   Techniques: 
   1. Text Preprocessing: NLTK Porter Stemming
   2. Feature Engineering: Metadata Weighting (Genre Boosting)
   3. Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency)
@@ -50,4 +50,4 @@ The project in four iterative phases:
 # How To Use
 1. Install dependencies: pip install pandas scikit-learn nltk.
 2. Run the Jupyter Notebook or Python script.
-3. Use the recommend('Movie Name') function to get started!
+3. Use the recommend('Movie Name') function to get started
