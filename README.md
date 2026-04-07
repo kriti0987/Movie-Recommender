@@ -8,7 +8,7 @@ In the initial stages of development, using a standard Bag-of-Words (CountVector
 
 Example: Searching for Avatar (Sci-Fi) would occasionally suggest A Cinderella Story (Teen Romance) simply because they shared common, low-value words in their descriptions.
 
-# The Objective: 
+# The Objective
 To eliminate thematic drift and ensure that recommendations remain within the correct genre and narrative domain
 
 # Tech Stack
