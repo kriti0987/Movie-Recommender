@@ -15,7 +15,7 @@ To eliminate thematic drift and ensure that recommendations remain within the co
 1. Language: Python
 2. Libraries: Pandas, NumPy, Scikit-Learn, NLTK
 
-Techniques: 
+ Techniques: 
   1. Text Preprocessing: NLTK Porter Stemming
   2. Feature Engineering: Metadata Weighting (Genre Boosting)
   3. Vectorization: TF-IDF (Term Frequency-Inverse Document Frequency)
@@ -26,7 +26,7 @@ Techniques:
 This project utilizes the TMDB 5000 Movie Dataset sourced from Kaggle.
 
 The dataset contains two primary CSV files:
-1. tmdb_5000_movies.csv: Contains metadata such as budget, genres, homepage, overview, keyword, title, popularity, and production companies.
+1. tmdb_5000_movies.csv: Contains metadata such as budget, genres, homepage, overview, movie_id, keyword, title, popularity, and production companies.
 2. tmdb_5000_credits.csv: Contains cast and crew information for each movie.
 
 # Procedure (The Development Pipeline)
