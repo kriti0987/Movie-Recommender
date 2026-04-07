@@ -31,6 +31,7 @@ This project utilizes the TMDB 5000 Movie Dataset sourced from Kaggle. The datas
 The project in four iterative phases:
 1. Data Cleaning: Merged the two datasets and handled missing values, duplicate entries, and JSON-formatted strings in the genres/keywords columns.
 2. Feature Engineering (Genre Boosting): Boosted the importance of genre and keyword metadata by concatenating them multiple times to ensure the model prioritizes category over narrative description.
+
    Weighted Metadata Concatenation
    tags = (genres * 3) + (keywords * 2) + overview + cast + crew
 
