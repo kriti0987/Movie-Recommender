@@ -14,7 +14,7 @@ To eliminate thematic drift and ensure that recommendations remain within the co
 https://github.com/user-attachments/assets/db885715-5ea3-46ac-a0d5-aeec9c93c0f5
 
 # Tech Stack
-1. Language: Python
+1. Programming Language: Python
 2. Libraries: Pandas, NumPy, Scikit-Learn, NLTK
 
  Techniques: 
