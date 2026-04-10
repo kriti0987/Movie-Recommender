@@ -1,4 +1,4 @@
-# Movie-Recommender
+# MOVIE-RECOMMENDATION SYSTEM
 Intelligent Content-Based Movie Recommendation Engine built using the TMDB 5000 Movie Dataset. The project explores the evolution of natural language processing (NLP) techniques, moving from a simple frequency-based model to a sophisticated weighted TF-IDF pipeline to provide highly relevant movie suggestions.
 Suggests movies based on thematic similarity. The engine processes metadata, including genres, keywords, cast, and crew, to compute similarity scores and deliver contextually relevant movie suggestions.
 
