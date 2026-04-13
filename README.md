@@ -45,11 +45,10 @@ The project in four iterative phases:
 
 # Outcome
 
-![Image](https://github.com/user-attachments/assets/f52fcbfd-8d6f-442d-b1f3-f5d24bb08a57)
+<img width="1522" height="752" alt="Image" src="https://github.com/user-attachments/assets/18760d33-c5b0-4fd9-a2c3-7420fe8cc353" />
+<img width="1646" height="755" alt="Image" src="https://github.com/user-attachments/assets/477cb378-47b0-4158-83bc-93c9a99c2417" />
+<img width="1645" height="754" alt="Image" src="https://github.com/user-attachments/assets/9952a4a1-cebc-4c0b-b4c8-088ce8b26e46" />
 
-![Image](https://github.com/user-attachments/assets/59353106-219e-4b97-a2b5-693e9d78999a)
-
-![Image](https://github.com/user-attachments/assets/c5b3ac31-ece6-4fb7-8d70-26af1c38d2cc)
 
 1. Successfully transformed a baseline recommendation model into a high-precision engine by implementing a weighted NLP pipeline, effectively eliminating 90% of cross-genre noise and achieving 100% thematic consistency in movie suggestions
 2. Eliminated cross-genre noise (e.g., Sci-Fi inputs now result in Sci-Fi outputs).
