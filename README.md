@@ -44,7 +44,7 @@ The project in four iterative phases:
 5. Vectorization & Similarity: Migrated from CountVectorizer to TfidfVectorizer to highlight unique keywords and penalize common terms. Used cosine_similarity to calculate the spatial proximity between vectors.
 
 # Outcome
-
+<img width="1610" height="756" alt="Image" src="https://github.com/user-attachments/assets/c9372edc-7981-459f-892d-2b28bdab11a2" />
 <img width="1646" height="755" alt="Image" src="https://github.com/user-attachments/assets/477cb378-47b0-4158-83bc-93c9a99c2417" />
 <img width="1645" height="754" alt="Image" src="https://github.com/user-attachments/assets/9952a4a1-cebc-4c0b-b4c8-088ce8b26e46" />
 
