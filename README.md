@@ -50,9 +50,15 @@ The project in four iterative phases:
 <img width="1645" height="754" alt="Image" src="https://github.com/user-attachments/assets/9952a4a1-cebc-4c0b-b4c8-088ce8b26e46" />
 
 
-1. Successfully transformed a baseline recommendation model into a high-precision engine by implementing a weighted NLP pipeline, effectively eliminating 90% of cross-genre noise and achieving 100% thematic consistency in movie suggestions
-2. Eliminated cross-genre noise (e.g., Sci-Fi inputs now result in Sci-Fi outputs).
-3. Demonstrated proficiency in NLP, feature engineering, and model optimization.
+1. **Baseline (CountVectorizer)**: Provided raw keyword matching with a similarity range of 10–20%, but suffered from significant "cross-genre noise.
+2. **Statistical Refinement (TF-IDF)**: Improved thematic relevance by focusing on unique identifiers, yielding a more precise similarity index of 15–25%.
+3. **The Weighted NLP Pipeline (Genre Boosting)**: By implementing a custom factory weighting (Genres $\times 3$, Titles $\times 2$), the model reached its peak performance with a similarity range of 25–35%.
+
+**Key Achievements**
+
+1. **Noise Reduction**: Effectively eliminated approximately 90% of cross-genre interference, ensuring that recommendations stay within the user's intended "mood" or category.
+
+2. **Thematic Consistency**: Achieved a high level of thematic alignment, where the top 5 suggestions consistently reflect the core attributes (DNA) of the input movie.
 
 # How To Use
 1. Install dependencies: pip install pandas scikit-learn nltk.
