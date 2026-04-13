@@ -45,7 +45,6 @@ The project in four iterative phases:
 
 # Outcome
 
-<img width="1522" height="752" alt="Image" src="https://github.com/user-attachments/assets/18760d33-c5b0-4fd9-a2c3-7420fe8cc353" />
 <img width="1646" height="755" alt="Image" src="https://github.com/user-attachments/assets/477cb378-47b0-4158-83bc-93c9a99c2417" />
 <img width="1645" height="754" alt="Image" src="https://github.com/user-attachments/assets/9952a4a1-cebc-4c0b-b4c8-088ce8b26e46" />
 
