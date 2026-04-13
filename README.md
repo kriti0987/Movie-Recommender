@@ -51,7 +51,7 @@ The project in four iterative phases:
 
 1. **Baseline (CountVectorizer)**: Provided raw keyword matching with a similarity range of 10–20%, but suffered from significant "cross-genre noise.
 2. **Statistical Refinement (TF-IDF)**: Improved thematic relevance by focusing on unique identifiers, yielding a more precise similarity index of 15–25%.
-3. **The Weighted NLP Pipeline (Genre Boosting)**: By implementing a custom factory weighting (Genres $\times 3$, Titles $\times 2$), the model reached its peak performance with a similarity range of 25–35%.
+3. **The Weighted NLP Pipeline (Genre Boosting)**: By implementing a custom factory weighting (Genres $\times 3$, Keywords $\times 2$), the model reached its peak performance with a similarity range of 25–35%.
 
 **Key Achievements**
 
